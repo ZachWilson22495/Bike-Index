@@ -47,6 +47,11 @@ Build an app using the Bike Index API. Your app could list all the bikes that ha
 1. We can start with a one location (zip-code) and then go on to create a method for searching for all the bikes stolen in your area in the past week or x amount of time
 - knowing this we need to find and test our api endpoints in postman before utilizing in our app.
 
+    * We need to confirm our API works as expected
+    * We need to build our business logic to be able to utilize our API [To do this we need a function to make the api call, then we'll need a callback function (a class with a static method and a fetch function and conditional to handle the promise) to handle that response]
+    * In our index.js we need to create a function to send the user inputted api endpoint.
+    * a function to receive the api response and parse the json object so that we can display the value.
+
 2. it could display statistics - for instance, you could see which manufacturer is most frequently stolen in a given area. 
 - knowing this we need to find and test our api endpoints in postman before utilizing in our app.
 
